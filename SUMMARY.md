@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tutorials](README.md)
+* [Online Courses](README.md)
   * [【清华NLP】刘知远团队大模型公开课全网首发｜带你从入门到实战](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/README.md)
     * [1.1 课程大纲](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/1.1-ke-cheng-da-gang.md)
     * [1.2 课程计划](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/1.2-ke-cheng-ji-hua.md)
@@ -213,3 +213,7 @@
     * [Label Studio](applications/annotation-tools/label-studio.md)
 * [Others](others/README.md)
   * [Token Classification](others/token-classification.md)
+  * [Page 1](others/page-1.md)
+* [Tutorials](tutorials/README.md)
+  * [GCP](tutorials/gcp/README.md)
+    * [Build a Docker Image and Push it to Artifact Registry](tutorials/gcp/build-a-docker-image-and-push-it-to-artifact-registry.md)
