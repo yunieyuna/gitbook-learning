@@ -215,5 +215,7 @@
   * [Token Classification](others/token-classification.md)
   * [Page 1](others/page-1.md)
 * [Tutorials](tutorials/README.md)
+  * [LLM](tutorials/llm/README.md)
+    * [Topic Modeling with BERTopic](tutorials/llm/topic-modeling-with-bertopic.md)
   * [GCP](tutorials/gcp/README.md)
     * [Build a Docker Image and Push it to Artifact Registry](tutorials/gcp/build-a-docker-image-and-push-it-to-artifact-registry.md)
