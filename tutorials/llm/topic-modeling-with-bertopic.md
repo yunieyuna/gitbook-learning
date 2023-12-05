@@ -207,6 +207,8 @@ Ref: [https://maartengr.github.io/BERTopic/getting\_started/tips\_and\_tricks/ti
 
 #### 2.3.1 Increasing Number of Topics
 
+Set `nr_topics` = 50
+
 ```python
 topic_model = BERTopic(
     nr_topics=50,
@@ -227,25 +229,81 @@ print("Number of topics:", len(set(topics)))
 
 Not working, maybe we need to look deep into the dimensional reduction model.
 
-#### 2.3.2 Reducing
+#### 2.3.2 Reducing number of topics
 
+Set `nr_topics` = 10
 
+```
+topic_model = BERTopic(
+    nr_topics=10,
+    
+    embedding_model=embedding_model,            # Step 1 - Extract embeddings
+    umap_model=umap_model,                      # Step 2 - Reduce dimensionality
+    hdbscan_model=hdbscan_model,                # Step 3 - Cluster reduced embeddings
+    vectorizer_model=vectorizer_model,          # Step 4 - Tokenize topics
+    ctfidf_model=ctfidf_model,                  # Step 5 - Extract topic words
+    representation_model=representation_model   # Step 6 - Fine-tune topics
+)
 
+topics, probs = topic_model.fit_transform(reviews)
 
-
-
-
-
-
-
-
-
-
-```python
-topic
+print("Number of topics:", len(set(topics)))
+# Number of topics: 10
 ```
 
 ```python
-topic
+topic_model.get_topic_info().sort_values("Count", ascending=False)
 ```
+
+<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+
+```python
+topic_model.visualize_barchart(n_words = 10)
+```
+
+<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+
+```python
+topic_model.visualize_hierarchy()
+```
+
+<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+
+#### 2.3.3 Diversify topic representation
+
+After having calculated our top n words per topic there might be many words that essentially mean the same thing. we can use `bertopic.representation.MaximalMarginalRelevance` in BERTopic to diversify words in each topic such that we limit the number of duplicate words we find in each topic.
+
+We do this by specifying a value between 0 and 1, with 0 being not at all diverse and 1 being completely diverse.
+
+```python
+from bertopic.representation import MaximalMarginalRelevance
+
+representation_model = MaximalMarginalRelevance(diversity=0.8)
+
+topic_model = BERTopic(
+    embedding_model=embedding_model,            # Step 1 - Extract embeddings
+    umap_model=umap_model,                      # Step 2 - Reduce dimensionality
+    hdbscan_model=hdbscan_model,                # Step 3 - Cluster reduced embeddings
+    vectorizer_model=vectorizer_model,          # Step 4 - Tokenize topics
+    ctfidf_model=ctfidf_model,                  # Step 5 - Extract topic words
+    representation_model=representation_model   # Step 6 - Fine-tune topics
+)
+
+topics, probs = topic_model.fit_transform(reviews)
+
+print("Number of topics:", len(set(topics)))
+# Number of topics: 29
+```
+
+```python
+topic_model.visualize_barchart(n_words = 5)
+```
+
+<figure><img src="../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+
+```python
+topic_model.visualize_hierarchy()
+```
+
+<figure><img src="../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
 
