@@ -216,6 +216,8 @@
   * [Page 1](others/page-1.md)
 * [Tutorials](tutorials/README.md)
   * [Classic\_ML](tutorials/classic\_ml/README.md)
+    * [Recommendation](tutorials/classic\_ml/recommendation/README.md)
+      * [NDCG](tutorials/classic\_ml/recommendation/ndcg.md)
     * [CV](tutorials/classic\_ml/cv/README.md)
       * [OCR](tutorials/classic\_ml/cv/ocr/README.md)
         * [TrOCR](tutorials/classic\_ml/cv/ocr/trocr.md)
