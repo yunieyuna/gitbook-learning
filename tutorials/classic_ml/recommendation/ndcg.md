@@ -16,13 +16,13 @@ The value of NDCG is determined by comparing the relevance of the items returned
 
 Here is a simple version dataset for a ranking model. There are two different search queries: **x** and **y**. Within each group, there are five different items shown as the result of search and each item has rank based on the position they are at the result list. Lastly, there are gains for each item representing the relevance of each item within the search.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.1 Cumulative Gain (CG)
 
 Cumulative Gain is a sum of _gains_ associated for items within a search query. Here is the formula for it:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Using the dataset above, we can calculate CG for each group:
 
