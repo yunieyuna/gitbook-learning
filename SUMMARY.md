@@ -254,7 +254,7 @@
       * [10. Natural Language Processing](books/ml/book-machine-learning-and-data-science-blueprints-for-finance/10.-natural-language-processing.md)
     * [\[BOOK\] Probabilistic Machine Learning for Finance and Investing](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/README.md)
       * [1. The Need for Probabilistic Machine Learning](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/1.-the-need-for-probabilistic-machine-learning.md)
-      * [Page 9](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/page-9.md)
+      * [2. Analyzing and Quantifying Uncertainty](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/2.-analyzing-and-quantifying-uncertainty.md)
       * [Page 8](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/page-8.md)
       * [Page 7](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/page-7.md)
       * [Page 6](books/ml/book-probabilistic-machine-learning-for-finance-and-investing/page-6.md)
