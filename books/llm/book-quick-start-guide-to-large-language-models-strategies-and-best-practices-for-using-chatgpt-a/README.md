@@ -2,4 +2,4 @@
 
 {% embed url="https://learning.oreilly.com/library/view/quick-start-guide/9780138199425/" %}
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>

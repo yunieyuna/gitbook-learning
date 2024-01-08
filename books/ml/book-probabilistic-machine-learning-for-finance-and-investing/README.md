@@ -5,4 +5,4 @@ description: >-
 
 # \[BOOK] Probabilistic Machine Learning for Finance and Investing
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

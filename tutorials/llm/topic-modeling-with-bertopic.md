@@ -30,7 +30,7 @@ import japanize_matplotlib
 
 Here is the data overview:
 
-<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
 
 This is already a column named "分類" where human annotated the results. And "review" is the actually comment left by users for specific products they bought on the E-commerce website.
 
@@ -71,11 +71,11 @@ Visualize the topic word socres:
 topic_model.visualize_barchart(n_words = 10)
 ```
 
-<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.2 Set models for each step
 
-<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.2.1 Step1 - Extract embeddings
 
@@ -171,7 +171,7 @@ print("Number of topics:", len(set(topics)))
 topic_model.get_topic_info().sort_values("Count", ascending=False)
 ```
 
-<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
 
 In the graph above, Topic "-1" means "others", and we can see this one has highest count (266).
 
@@ -179,27 +179,27 @@ In the graph above, Topic "-1" means "others", and we can see this one has highe
 topic_model.visualize_barchart(n_words = 10)
 ```
 
-<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 # Word Cloud
 create_wordcloud(topic_model, topic=0)
 ```
 
-<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 # Word Cloud
 create_wordcloud(topic_model, topic=1)
 ```
 
-<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 topic_model.visualize_hierarchy()
 ```
 
-<figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.3 Parameters and tricks
 
@@ -255,19 +255,19 @@ print("Number of topics:", len(set(topics)))
 topic_model.get_topic_info().sort_values("Count", ascending=False)
 ```
 
-<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 topic_model.visualize_barchart(n_words = 10)
 ```
 
-<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 topic_model.visualize_hierarchy()
 ```
 
-<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.3.3 Diversify topic representation
 
@@ -299,11 +299,11 @@ print("Number of topics:", len(set(topics)))
 topic_model.visualize_barchart(n_words = 5)
 ```
 
-<figure><img src="../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 topic_model.visualize_hierarchy()
 ```
 
-<figure><img src="../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
