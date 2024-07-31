@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Online Courses](README.md)
+  * [Vertex AI Pipelines - The Easiest Way to Run ML Pipelines](master/vertex-ai-pipelines-the-easiest-way-to-run-ml-pipelines.md)
   * [【清华NLP】刘知远团队大模型公开课全网首发｜带你从入门到实战](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/README.md)
     * [1.1 课程大纲](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/1.1-ke-cheng-da-gang.md)
     * [1.2 课程计划](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/1.2-ke-cheng-ji-hua.md)
