@@ -6,4 +6,4 @@ description: https://learning.oreilly.com/library/view/managing-ai-in/9781484278
 
 ### Managing AI in the Enterprise: Succeeding with AI Projects and MLOps to Build Sustainable AI Organizations
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>

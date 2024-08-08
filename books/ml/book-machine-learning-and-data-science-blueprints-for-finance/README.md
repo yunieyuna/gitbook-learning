@@ -4,4 +4,4 @@ description: https://learning.oreilly.com/library/view/machine-learning-and/9781
 
 # \[BOOK] Machine Learning and Data Science Blueprints for Finance
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>

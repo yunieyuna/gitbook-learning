@@ -16,17 +16,17 @@ The value of NDCG is determined by comparing the relevance of the items returned
 
 Here is a simple version dataset for a ranking model. There are two different search queries: **x** and **y**. Within each group, there are five different items shown as the result of search and each item has rank based on the position they are at the result list. Lastly, there are gains for each item representing the relevance of each item within the search.
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.1 Cumulative Gain (CG)
 
 Cumulative Gain is a sum of _gains_ associated for items within a search query. Here is the formula for it:
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Using the dataset above, we can calculate CG for each group:
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this example, both groups have the same CG — 3 — so we are still not able to tell which search groups are better. In order to do that, we need to take consideration of rank in the formula — which brings us into the next part: DCG.
 
@@ -34,13 +34,13 @@ In this example, both groups have the same CG — 3 — so we are still not able
 
 DCG is the same concept as CG but takes the additional step of discounting the gains by rank. Here is the formula for DCG:
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Using the dataset above, we can calculate DCG for each group:
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Good news! Now we can see the DCG of _**y**_ is better than the DCG of _**x**_. It also makes sense that group _**y**_ has better DCG because the items in the higher rank are more relevant (higher gain) to the search group _**y**_. So why do we still need NDCG? To answer this question, let’s introduce another search groups _**z**_ to the count example:
 
