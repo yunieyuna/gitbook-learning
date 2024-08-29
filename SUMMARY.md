@@ -17,6 +17,8 @@
     * [2.3 如何训练神经网络](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/2.3-ru-he-xun-lian-shen-jing-wang-luo.md)
     * [2.4 词向量](master/qing-hua-nlp-liu-zhi-yuan-tuan-dui-da-mo-xing-gong-kai-ke-quan-wang-shou-fa-dai-ni-cong-ru-men-dao-s/2.4-ci-xiang-liang.md)
 * [Books](books/README.md)
+  * [Statistics](books/statistics/README.md)
+    * [实验优化设计与统计分析](books/statistics/shi-yan-you-hua-she-ji-yu-tong-ji-fen-xi.md)
   * [GCP](books/gcp/README.md)
     * [\[BOOK\] Data Science on the Google Cloud Platform](books/gcp/book-data-science-on-the-google-cloud-platform/README.md)
       * [1. Making Better Decisions Based On Data](books/gcp/book-data-science-on-the-google-cloud-platform/1.-making-better-decisions-based-on-data.md)
