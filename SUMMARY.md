@@ -414,3 +414,4 @@
     * [Build a Docker Image and Push it to Artifact Registry](tutorials/gcp/build-a-docker-image-and-push-it-to-artifact-registry.md)
 * [Notebook](notebook/README.md)
   * [如何计算A/B测试时需要的样本量](notebook/ru-he-ji-suan-ab-ce-shi-shi-xu-yao-de-yang-ben-liang.md)
+  * [实验设计与数据处理](notebook/shi-yan-she-ji-yu-shu-ju-chu-li.md)
