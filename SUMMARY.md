@@ -412,3 +412,6 @@
     * [Fine Tuning an LLM](tutorials/llm/fine-tuning-an-llm.md)
   * [GCP](tutorials/gcp/README.md)
     * [Build a Docker Image and Push it to Artifact Registry](tutorials/gcp/build-a-docker-image-and-push-it-to-artifact-registry.md)
+* [Notebook](notebook/README.md)
+  * [つくりながら学ぶ！Pythonによる因果関係](notebook/tsukurinagarabupythonniyoru/README.md)
+    * [第１部　因果推論](notebook/tsukurinagarabupythonniyoru/di-bu-yin-guo-tui-lun.md)
