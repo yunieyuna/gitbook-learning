@@ -413,5 +413,4 @@
   * [GCP](tutorials/gcp/README.md)
     * [Build a Docker Image and Push it to Artifact Registry](tutorials/gcp/build-a-docker-image-and-push-it-to-artifact-registry.md)
 * [Notebook](notebook/README.md)
-  * [つくりながら学ぶ！Pythonによる因果関係](notebook/tsukurinagarabupythonniyoru/README.md)
-    * [第１部　因果推論](notebook/tsukurinagarabupythonniyoru/di-bu-yin-guo-tui-lun.md)
+  * [如何计算A/B测试时需要的样本量](notebook/ru-he-ji-suan-ab-ce-shi-shi-xu-yao-de-yang-ben-liang.md)
