@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Online Courses](README.md)
+  * [\[Coursera\] Experimental Design Basics](master/coursera-experimental-design-basics.md)
   * [\[Udemy\] Design of Experiments: from ANOVA to Factorial Designs using Excel and R](master/udemy-design-of-experiments-from-anova-to-factorial-designs-using-excel-and-r/README.md)
     * [Section 1: Introduction do the Design of Experiments (DoE)](master/udemy-design-of-experiments-from-anova-to-factorial-designs-using-excel-and-r/section-1-introduction-do-the-design-of-experiments-doe.md)
   * [Vertex AI Pipelines - The Easiest Way to Run ML Pipelines](master/vertex-ai-pipelines-the-easiest-way-to-run-ml-pipelines.md)
